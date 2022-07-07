@@ -1,4 +1,5 @@
 import numpy as np
+from curso_pdi.funciones.dilatacion import dilatacion
 
 def vista_con_bordes(original, procesada, color = np.array([1, 0, 0]), grosor = 1):
     if (len(original.shape) == 2):
